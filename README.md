@@ -35,12 +35,14 @@ Projet supervisé par : Professeur M. Ahmed Bentajer
 ---
 
 ## 📂 Structure du projet
+
 transfert_de_fichiers_securise/
 ├── src/
 │ ├── SecureFileServer.java
 │ └── SecureFileClient.java
 ├── .gitignore
 └── README.md
+
 
 - `src/` : contient le code source du serveur et du client
 - `.gitignore` : ignore les fichiers générés, dossiers IDE, et fichiers reçus (`received/`)
@@ -77,6 +79,7 @@ java -cp out/ SecureFileClient
 Exemple d’utilisation
 
 Côté Serveur :
+
 SecureFileServer running on port 5000
 Client connected: /127.0.0.1
 User authenticated: lahcen
@@ -84,6 +87,7 @@ File AD-Pentest.pdf received successfully.
 Client disconnected: lahcen
 
 Côté Client :
+
 Login: lahcen
 Password: lahcenpass
 Server IP: localhost
